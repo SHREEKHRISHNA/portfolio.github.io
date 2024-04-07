@@ -1,0 +1,603 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.image{
+    height: 400px;
+    width: 400px;
+}
+.information{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section:last-child {
+    border-bottom: none;
+}
+
+.section h2 {
+    color: #555;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.section p {
+    color: #777;
+    line-height: 1.6;
+}
+
+.section p:first-child {
+    margin-top: 0;
+}
+
+.section p:last-child {
+    margin-bottom: 0;
+}
+
+/* Hover effect on list items */
+.section ul li {
+    list-style-type: none;
+    padding-left: 1.2em;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.section ul li::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.section ul li:hover {
+    color: #007bff;
+}
+
+/* Fade-in effect on section */
+.section {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+    max-width: 800px; /* Adjust width as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 30px;
+    background-color: #f5f5f5; /* Light background */
+    border-radius: 5px; /* Gentle rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif; /* Modern font */
+    font-size: 2em; /* Larger heading */
+    text-align: center; /* Centered text */
+    color: #333; /* Darker text for contrast */
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    border: 1px solid #ddd; /* Light border for sections */
+    padding: 20px;
+    border-radius: 3px; /* Match box-shadow radius */
+  }
+  
+  h2 {
+    font-family: inherit; /* Inherit font from h1 */
+    font-size: 1.2em; /* Smaller subheading */
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    font-family: inherit; /* Inherit font */
+    color: #666; /* Lighter text */
+    line-height: 1.5; /* Adjust line spacing for readability */
+    
+    /* Optional hover effect for interactivity */
+    transition: color 0.2s ease-in-out;
+  }
+  
+  li:hover {
+    color: #333; /* Darken text on hover */
+  }
+  /* General styling */
+.section1 {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Heading style */
+.section1 h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* List item styling */
+.section1 p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Even and odd list items background color */
+.section1 p:nth-child(even) {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.section1 p:nth-child(odd) {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* World clock styling */
+.world-clock {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Google form styling */
+.google-form {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4285F4; /* Google Blue */
+}
+/* General styling */
+.section2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #2c3e50; /* Dark blue background */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: #ffffff; /* White text color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Heading style */
+.section2 h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* List item styling */
+.section2 p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* List item numbering */
+.section2 p::before {
+    font-size: 22px;
+    margin-right: 10px;
+    color: #ffffff; /* White text color */
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+/* Hover effect on list items */
+.section2 p:hover::before {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Animation for list item numbering */
+@keyframes highlight {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply animation to list item numbering */
+.section2 p::before {
+    animation: highlight 3s infinite;
+}
+
+/* General styling */
+.section3 {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #333333; /* Dark text color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Heading style */
+.section3 h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #0066ff; /* Blue heading color */
+}
+
+/* List item styling */
+.section3 p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* List item numbering */
+.section3 p::before {
+  
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ffffff; /* White text color */
+    padding: 5px 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 102, 255, 0.3);
+}
+
+/* Hover effect on list items */
+.section3 p:hover::before {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease;
+}
+
+/* Animation for list item numbering */
+@keyframes rotateNumber {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Apply animation to list item numbering */
+.section3 p::before {
+    animation: rotateNumber 2s infinite linear;
+}
+/* General styling */
+.section3 {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    background-color: #1a1a1a; /* Dark background */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    color: #ffffff; /* White text color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Heading style */
+.section3 h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #ff7f0e; /* Orange heading color */
+}
+
+/* List item styling */
+.section3 p {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* List item numbering */
+.section3 p::before {
+  
+    font-size: 28px;
+    margin-right: 15px;
+    background-color: #ffcc00; /* Yellow background for numbers */
+    color: #1a1a1a; /* Dark text color */
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+
+/* Hover effect on list items */
+.section3 p:hover::before {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease;
+}
+
+/* Animation for list item numbering */
+@keyframes rotateNumber {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Apply animation to list item numbering */
+.section3 p::before {
+    animation: rotateNumber 2s infinite linear;
+}
+/* General styling */
+.section3 {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333333; /* Dark text color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Heading style */
+.section3 h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #009688; /* Teal heading color */
+}
+
+/* List item styling */
+.section3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* List item numbering */
+.section3 p::before {
+   
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: #009688; /* Teal background for numbers */
+    color: #ffffff; /* White text color */
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+
+/* Hover effect on list items */
+.section3 p:hover::before {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+/* General styling */
+.section3 {
+    font-family: 'Roboto', sans-serif; /* Changing font style */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333333; /* Dark text color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Heading style */
+.section3 h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #009688; /* Teal heading color */
+}
+
+/* List item styling */
+.section3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Hover effect on list items */
+.section3 p:hover {
+    color: #00695c; /* Dark teal color on hover */
+}
+
+/* Image styling */
+.section3 img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to images */
+    border-radius: 10px; /* Add border radius to images */
+}
+/* General styling */
+.section3 {
+    font-family: 'Open Sans', sans-serif; /* Changing font style */
+    padding: 20px;
+    background-color: #c6e9f4; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333333; /* Dark text color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Heading style */
+.section3 h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Green heading color */
+}
+
+/* List item styling */
+.section3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Hover effect on list items */
+.section3 p:hover {
+    color: #4CAF50; /* Green color on hover */
+    font-weight: bold; /* Bold font weight on hover */
+}
+
+/* Image styling */
+.section3 img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to images */
+    border-radius: 10px; /* Add border radius to images */
+}
+/* General styling */
+.section3 {
+    font-family: 'Lato', sans-serif; /* Changing font style to Lato */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333333; /* Dark text color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Heading style */
+.section3 h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Green heading color */
+}
+
+/* List item styling */
+.section3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Hover effect on list items */
+.section3 p:hover {
+    color: #4CAF50; /* Green color on hover */
+    font-weight: bold; /* Bold font weight on hover */
+}
+
+/* Image styling */
+.section3 img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to images */
+    border-radius: 10px; /* Add border radius to images */
+}
+/* General styling */
+.section3 {
+    font-family: 'Lato', sans-serif; /* Changing font style to Lato */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333333; /* Dark text color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Heading style */
+.section3 h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #a8ccea; /* Green heading color */
+    font-style: italic; /* Italic font style */
+}
+
+/* List item styling */
+.section3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Hover effect on list items */
+.section3 p:hover {
+    color: #4CAF50; /* Green color on hover */
+    font-weight: bold; /* Bold font weight on hover */
+}
+
+/* Image styling */
+.section3 img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to images */
+    border-radius: 10px; /* Add border radius to images */
+}
+/* Add this to the existing CSS */
+
