@@ -1,0 +1,11 @@
+
+ /* Center the text */
+.text-center {
+    text-align: center !important;
+}
+/* Set background color to skyblue */
+.bg-skyblue {
+    background-color: rgb(48, 184, 237) !important;
+}
+
+
